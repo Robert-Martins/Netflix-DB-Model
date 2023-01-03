@@ -14,6 +14,8 @@ O projeto será desenvolvido em etapas.
 Primeiramente, deve ser desenvolvido a parte conceitual do projeto. Para isso, devem ser definidos os escopos e os requisitos do projeto.
 Além disso, deve ser desenvolvido o Diagrama Entidade Relacionamento.
 
+Em seguida, deve ser desenvolvido o Modelo Lógico do Diagrama juntamente com o Dicionário de Dados com base nas Entidades definidas e o esquema relacional normalizado.
+
 <br>
 
 ### Escopo
