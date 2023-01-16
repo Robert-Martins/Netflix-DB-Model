@@ -89,8 +89,9 @@ Será desenvolvido um dicionário de dados por Entidade. Em cada Entidade serão
 | Data de Emissão da Fatura | released_at | Timestamp | Data de Emissão da Fatura | Datas no Formato Timestamp | Não | - |
 | Data de Vencimento da Fatura | due_date | Timestamp | Data de Vencimento da Fatura | Datas no Formato Timestamp | Não | - |
 | Data de Pagamento da Fatura | payed_at | Timestamp | Data de Pagamento da Fatura | Datas no Formato Timestamp | Não | - |
-| ID do Cliente da Fatura | client_id | Inteiro | Identificador que referencia o Cliente responsável pela Fatura | Valores Inteiros maiores que zero | Não | Chave Estrangeira, Valor Único na Tabela |
-| ID do Método de Pagamento da Fatura | payment_method_id | Inteiro | Identificador que referencia o Método de Pagamento da Fatura | Valores Inteiros maiores que zero | Não | Chave Estrangeira |
+| ID do Cliente da Fatura | client_id | Inteiro | Identificador que referencia o Cliente responsável pela Fatura | Valores Inteiros maiores que 0 | Não | Chave Estrangeira, Valor Único na Tabela |
+| ID do Método de Pagamento da Fatura | payment_method_id | Inteiro | Identificador que referencia o Método de Pagamento da Fatura | Valores Inteiros maiores que 0 | Não | Chave Estrangeira |
+| ID do Plano de Assinatura da Fatura | signature_plan_id | Inteiro | Identificador que referencia o Plano de Assinatura da Fatura | Valores Inteiros maiores que 0 | Não | Chave Estrangeira |
 
 <br>
 
@@ -189,12 +190,12 @@ Será desenvolvido um dicionário de dados por Entidade. Em cada Entidade serão
 | Nome do Conteúdo | name | String | Nome do Conteúdo | Textos de até 100 caracteres | Não | - |
 | Imagem do Conteúdo | image | String | URL do Arquivo da Imagem do Conteúdo | Textos de até 255 caracteres | Não | O Valor salvo deve ser uma URL válida |
 | Descrição do Conteúdo | description | String | Descrição do Conteúdo | Textos de até 255 caracteres | Não | - |
-| Diretor(a) do Conteúdo | director_name | String | Nome do Diretor do Conteúdo | Textos de até 50 caracteres | Não | - |
+| Diretor(a) do Conteúdo | director | String | Nome do Diretor do Conteúdo | Textos de até 50 caracteres | Não | - |
 | Relevância do Conteúdo | relevance | Inteiro | Relevância do Conteúdo em porcentagem | Valores Inteiros entre 0 e 100 | Não | - |
 | Data do Conteúdo | date | Timestamp | Data de Lançamento do Conteúdo | Data formatadas como Timestamp | Não | - |
 | Qualidade Máxima do Conteúdo | max_quality | Enum String | Qualidade Máxima do Conteúdo | Valores de Enum Video Qualities: 480p, 720p, 1080p, 2160 e 4K | Não | - |
 | Faixa Etária do Conteúdo | min_age | Inteiro | Faixa Etária Mínima para acessar o Conteúdo | Valores Inteiros maiores que 0 | Não | - |
-| ID do Arquivo de Vídeo | content_id | Inteiro | Identificador que referencia o Arquivo de Vídeo do Conteúdo | Valores Inteiros maiores que 0 | Sim | Possuirá Valor apenas se o Conteúdo for do tipo Filme |
+| ID do Arquivo de Vídeo | file_id | Inteiro | Identificador que referencia o Arquivo de Vídeo do Conteúdo | Valores Inteiros maiores que 0 | Sim | Possuirá Valor apenas se o Conteúdo for do tipo Filme |
 
 <br>
 
