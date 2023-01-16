@@ -264,6 +264,7 @@ Será desenvolvido um dicionário de dados por Entidade. Em cada Entidade serão
 | Nome da Temporada | name | String | Nome da Temporada | Textos de até 40 caracteres | Não | - |
 | Descrição da Temporada | description | String | Descrição da Temporada | Textos de até 255 caracteres | Não | - |
 | Data da Temporada | date | Timestamp | Data de Lançamento da Temporada | Datas no formato Timestamp | Não | - |
+| ID do Conteúdo | content_id | Inteiro | Identificador que referencia o Conteúdo da qual a Temporada faz parte | Valores Inteiros maiores que 0 | Não | Chave Estrangeira |
 
 <br>
 
