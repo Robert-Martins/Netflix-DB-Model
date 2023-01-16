@@ -38,10 +38,9 @@ Entidade `Profile` conforme já definido.
 - _**RF05** 
 O cliente deve ter acesso aos conteúdos, filmes ou séries, disponbilizados, por tipo de permissão de perfil_
 
-A permissão de perfil será inserida como atributo na entidade `Profile`. Definição de Entidades `Content`, `Movie`, `Series` e `Video`.
-`Content` refere à conteúdos de forma geral, podendo ser séries ou filmes. `Movie` e `Series` representam filmes e séries, respectivamente.
-Ainda, `Video` representa o arquivo de reprodução. Séries podem possuir tipos, sendo minisséries ou documentários, que podem ou não possuir múltiplas temporadas.
-A Entidade `Season` representa a temporada. `Video` também representa um episódio de uma série.
+A permissão de perfil será inserida como atributo na entidade `Profile`. Definição de Entidade `Content` que representa os conteúdos da aplicação.
+O Conteúdo pode ser uma série que possui `Season`. Cada Temporada possuirá diversos `File`, que representam os episódios da Temporada.
+Contudo, caso o conteúdo seja um filme, haverá relacionamento direto entre `Content` e `File`.
 
 <br>
 
@@ -62,7 +61,7 @@ Entidades já definidas.
 - _**RF08** 
 O cliente deve ter a possibilidade de continuar sua sessão no instante no qual parou_
 
-Definição de Entidade `Session` que representa a visualização de um `Video`. Possui atributo `moment` que representa o tempo de visualização de um `Video`.
+Definição de Entidade `Session` que representa a visualização de um `File`. Possui atributo `moment` que representa o tempo de visualização de um `File`.
 
 <br>
 
@@ -97,8 +96,8 @@ Entidade `Payment Method` definida. Representa as múltiplas formas de pagamento
 - _**RF13** 
 O cliente deve ter acesso ao histórico de pagamento da assinatura_
 
-Definição de Entidade `Transaction` que representa as cobranças do plano de assinatura. Sua criação é no momento de cobrança e possui atributo `status` para verificação
-de transação efetuada com sucesso.
+Definição de Entidade `Invoice` que representa as faturas mensais do plano de assinatura. Sua criação é no momento de cobrança e possui atributo `status` para verificação
+da situação do pagamento.
 
 <br>
 
