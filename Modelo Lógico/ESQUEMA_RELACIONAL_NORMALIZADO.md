@@ -1,6 +1,10 @@
 ## Esquema Relacional Normalizado
 ##
 
+Obs.: Em Markdown não é possível sublinhar texto. Considerar a chave primária como textos entre _ underline _
+
+<br>
+
 CLIENT ( \_id\_, status, #person_id, #user_id, #signature_plan_id )
 
 PERSON ( \_id\_, name, tax_id, telephone, email, birth_date, #address_id )
