@@ -64,6 +64,7 @@ Será desenvolvido um dicionário de dados por Entidade. Em cada Entidade serão
 | Tipo de Método de Pagamento | type | Enum String | Tipo de Método de Pagamento | Valores do Enum Payment Method Type: Boleto e Cartão de Crédito | Não | Irá determinar se existe vínculo com a Entidade `CreditCard` |
 | Método de Pagamento Principal | is_main_method | Boolean | Indica se é o método de pagamento principal para emissão da fatura | Valores Booleanos True ou False | Não | Indica se será o método vinculado à transação de pagamento |
 | ID de Cartão de Crédito de Método de Pagamento | credit_card_id | Inteiro | Identificador que referencia o Cartão de Crédito do Método de Pagamento | Valores Inteiros maiores que 0 | Sim | Chave Estrangeira, Valor Único na Tabela |
+| ID de Pessoa que possui o Método de Pagamento | person_id | Inteiro | Identificador que referencia a Pessoa que possui o Método de Pagamento | Valores Inteiros maiores que 0 | Não | Chave Estrangeira |
 
 <br>
 

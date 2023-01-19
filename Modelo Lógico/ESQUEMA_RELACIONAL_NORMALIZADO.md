@@ -11,7 +11,7 @@ PERSON ( \_id\_, name, tax_id, telephone, email, birth_date, #address_id )
 
 ADDRESS ( \_id\_, country, zipcode, uf, city, neighbourhood, street, complement )
 
-PAYMENT_METHOD ( \_id\_, type, is_main_method, #credit_card_id )
+PAYMENT_METHOD ( \_id\_, type, is_main_method, #credit_card_id, #person_id )
 
 CREDIT_CARD ( \_id\_, cardholder_name, card_number, expired_at, security_code )
 
