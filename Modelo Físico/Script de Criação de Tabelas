@@ -1,0 +1,38 @@
+CREATE TABLE address (
+	id	int	primary key,
+	country	varchar(20),
+	zipcode	varchar(15),
+	uf	varchar(10),
+	city	varchar(30),
+	neighbourhood	varchar(40),
+	street	varchar(40),
+	complement	varchar(40)
+);
+
+CREATE TABLE person (
+	id	int	primary key,
+	name	varchar(50),
+	tax_id	varchar(20),
+	telephone	varchar(15),
+	email	varchar(30),
+	birth_date	date,
+	address_id	int	references	address(id)
+);
+
+CREATE TABLE credit_card (
+	id	int	primary key,
+	cardholder_name	varchar(50),
+	card_number	varchar(40),
+	expired_at	varchar(7),
+	security_code	int
+);
+
+CREATE TABLE payment_method (
+	id	int	primary key,
+	type	varchar(20),
+	is_main_method	bool,
+	credit_card_id	int	references	credit_card(id),
+	person_id	int	references	person(id)
+);
+
+CREATE TABLE 
