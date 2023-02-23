@@ -16,6 +16,12 @@ Além disso, deve ser desenvolvido o Diagrama Entidade Relacionamento.
 
 Em seguida, deve ser desenvolvido o Modelo Lógico do Diagrama juntamente com o Dicionário de Dados com base nas Entidades definidas e o esquema relacional normalizado.
 
+Na parte final, consolidando a estruturação conceitual e lógicas da base de dados, será realizada a implementação do banco de dados. Ainda, serão criados os seguintes scripts:
+
+- Criação das Tabelas do Banco
+- Inserção de valores nas tabelas
+- Seleção de valores utilizando propriedades diversas
+
 <br>
 
 ### Escopo
