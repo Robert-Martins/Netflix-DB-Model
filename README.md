@@ -18,8 +18,8 @@ Em seguida, deve ser desenvolvido o Modelo Lógico do Diagrama juntamente com o 
 
 Na parte final, consolidando a estruturação conceitual e lógicas da base de dados, será realizada a implementação do banco de dados. Ainda, serão criados os seguintes scripts:
 
-- Criação das Tabelas do Banco
-- Inserção de valores nas tabelas
+- Criação das Tabelas do Banco e Inserção de Valores nas Tabelas
+- CRUD das Entidades
 - Seleção de valores utilizando propriedades diversas
 
 <br>
