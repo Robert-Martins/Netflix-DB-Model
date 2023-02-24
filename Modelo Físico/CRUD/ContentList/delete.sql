@@ -1,0 +1,1 @@
+DELETE FROM tb_content_list WHERE id = 4;

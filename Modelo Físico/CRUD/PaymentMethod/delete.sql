@@ -1,0 +1,1 @@
+DELETE FROM tb_payment_method WHERE id = 4;

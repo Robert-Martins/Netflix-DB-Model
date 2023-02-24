@@ -1,0 +1,1 @@
+DELETE FROM tb_content_actors WHERE id = 4;

@@ -1,0 +1,1 @@
+DELETE FROM tb_invoice WHERE id = 4;

@@ -1,0 +1,1 @@
+DELETE FROM tb_content_languages WHERE id = 4;

@@ -1,0 +1,1 @@
+DELETE FROM tb_profile_pic WHERE id = 4;

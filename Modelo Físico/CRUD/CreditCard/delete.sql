@@ -1,0 +1,1 @@
+DELETE FROM tb_credit_card WHERE id = 4;

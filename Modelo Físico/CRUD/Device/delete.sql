@@ -1,0 +1,1 @@
+DELETE FROM tb_device WHERE id = 4;

@@ -1,0 +1,1 @@
+DELETE FROM tb_season WHERE id = 2;

@@ -1,0 +1,1 @@
+DELETE FROM tb_content_genders WHERE id = 4;

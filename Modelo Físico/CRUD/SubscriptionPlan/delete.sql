@@ -1,0 +1,1 @@
+DELETE FROM tb_subscription_plan WHERE id = 4;

@@ -1,0 +1,1 @@
+DELETE FROM tb_evaluation WHERE id = 4;

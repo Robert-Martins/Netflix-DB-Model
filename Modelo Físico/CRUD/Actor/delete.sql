@@ -1,0 +1,1 @@
+DELETE FROM tb_actor WHERE id = 4;

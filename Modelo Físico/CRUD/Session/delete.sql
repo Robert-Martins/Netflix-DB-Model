@@ -1,0 +1,1 @@
+DELETE FROM tb_session WHERE id = 4;
